@@ -21,7 +21,7 @@ app.secret_key = '123'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 #############################################
 
-ITEMS_PER_PAGE = 30
+ITEMS_PER_PAGE = 50
 
 def calculate_tf(text):
     '''
